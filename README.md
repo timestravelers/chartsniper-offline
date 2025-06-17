@@ -42,13 +42,12 @@ Dibangun dengan teknologi AI nyata: TensorFlow.js + OpenCV.js + JavaScript murni
 
 ## 📁 Struktur File
 ChartSniper_Pro_Offline/
-├── index.html
+├── index.html              ← Aplikasi utama
 ├── model/
-│   ├── pattern-model.json
-│   └── weights.bin
+│   ├── pattern-model.json  ← Arsitektur model AI
+│   └── weights.bin         ← Bobot model AI (dummy untuk testing)
 ├── js/
-│   └── ai-model.js
+│   └── ai-model.js         ← Logika AI & deteksi pola
 ├── assets/
-│   └── ding.mp3
-└── README.md 
-
+│   └── ding.mp3            ← Notifikasi suara
+└── README.md               ← Deskripsi aplikasi
