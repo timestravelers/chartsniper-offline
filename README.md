@@ -38,16 +38,3 @@ Dibangun dengan teknologi AI nyata: TensorFlow.js + OpenCV.js + JavaScript murni
 3. Arahkan ke chart
 4. Klik tombol “Ambil Gambar” → analisis otomatis
 
----
-
-## 📁 Struktur File
-ChartSniper_Pro_Offline/
-├── index.html              ← Aplikasi utama
-├── model/
-│   ├── pattern-model.json  ← Arsitektur model AI
-│   └── weights.bin         ← Bobot model AI (dummy untuk testing)
-├── js/
-│   └── ai-model.js         ← Logika AI & deteksi pola
-├── assets/
-│   └── ding.mp3            ← Notifikasi suara
-└── README.md               ← Deskripsi aplikasi
